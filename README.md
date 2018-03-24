@@ -15,10 +15,10 @@
   > Always moving education forward.
 
 ## How to Get Started ##
-  > npm install 
-  > nodemon
-  > Open browser and navigate to "localhost:1337"
-  > Select from "Login As" drop down menu which UI you would like to preview. ( Parent, Teach, Student )
+  npm install 
+  nodemon
+  Open browser and navigate to "localhost:1337"
+  Select from "Login As" drop down menu which UI you would like to preview. ( Parent, Teach, Student )
 
 ## Customer Quote ##
   > "This will change the way modern education effects us all." -- Sally Somebody
