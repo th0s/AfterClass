@@ -1,0 +1,31 @@
+{
+  "name": "afterclass",
+  "version": "1.0.0",
+  "description": "Giving teachers and parents a chance to teach children, even when class is over.",
+  "main": "index.js",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3",
+    "mongodb": "^3.0.5",
+    "mongoose": "^5.0.11",
+    "nodejs": "0.0.0",
+    "nodemon": "^1.17.2",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/th0s/AfterClass.git"
+  },
+  "author": "Phillip Schmidt",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/th0s/AfterClass/issues"
+  },
+  "homepage": "https://github.com/th0s/AfterClass#readme"
+}
