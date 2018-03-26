@@ -1,9 +1,9 @@
 var path = require('path');
-var DIST_DIR = path.resolve(__dirname, 'client/src');
+var DIST_DIR = path.resolve(__dirname, 'client/dist');
 var SRC_DIR = path.resolve(__dirname, 'client/components');
 
 module.exports = {
-    entry: `${SRC_DIR}/login.jsx`,
+    entry: `${SRC_DIR}/app.jsx`,
     output: {
         filename: 'bundle.js',
         path: DIST_DIR
