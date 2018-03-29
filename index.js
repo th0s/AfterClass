@@ -1,18 +1,19 @@
+// Import Modules 
 var express = require('express');
 var axios = require('axios');
 var bodyparser = require('body-parser');
 
 var app = express();
 
-console.log(__dirname + '/client/dist')
+// Serve Static Html
 app.use(express.static(__dirname + '/client/dist'));
 app.use(bodyparser.json());
 
-app.get('*', (req, res) => {
-    console.log('Got here!')
-})
+// Routing
 
+
+// Create and Listen on Port
 app.listen(1337, (err) => {
-    if (err) {console.log('There was a connection issue: ', err)}
-    console.log('AfterClass listening on port 1337...')
-})
+  if (err) {console.log('There was a connection issue: ', err);}
+  console.log('AfterClass listening on port 1337...');
+});

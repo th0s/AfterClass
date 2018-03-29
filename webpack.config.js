@@ -10,14 +10,41 @@ module.exports = {
     },
     module: {
         rules: [
-            {
-                test: /\.jsx?/,
-                include: SRC_DIR,
-                loader: 'babel-loader',
-                query: {
-                    presets: ['react', 'es2015']
-                }
+          {
+            test: /.jsx?$/,
+            loader: 'babel-loader',
+            query: {
+              presets: ['es2015', 'react']
             }
+          },
+          { 
+            test: /\.css$/, 
+            loader: ["style-loader", "css-loader"] 
+          },
+          { 
+            test: /\.png$/, 
+            loader: "url-loader?limit=100000" 
+          },
+          { 
+            test: /\.jpg$/, 
+            loader: "file-loader" 
+          },
+          {
+            test: /\.(woff|woff2)$/, 
+            loader: 'url-loader'
+          },
+          {
+            test: /\.ttf$/, 
+            loader: 'url-loader'
+          },
+          {
+            test: /\.eot$/, 
+            loader: 'file-loader'
+          },
+          {
+            test: /\.svg$/, 
+            loader: 'url-loader'
+          }
         ]
-    }
+      }
 };
