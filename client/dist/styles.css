@@ -48,6 +48,56 @@ body {
 }
 
 
+/* 
+ * Component Hover and Images
+ */
+.zoom-hover {
+  transition: transform 0.3s ease-in-out;
+}
+.zoom-hover:hover {
+  transform: scale(1.1);
+}
+
+.teacher {
+  background: url("images/teacher.jpg");
+  width: auto;
+  height: 160px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  background-position: center;
+}
+.teacher .card-title {
+  margin-top: 60px;
+}
+
+.student {
+  background: url("images/student.jpg");
+  width: auto;
+  height: 160px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  background-position: center;
+}
+.student .card-title {
+  margin-top: 60px;
+}
+
+.parent {
+  background: url("images/parent.png");
+  width: auto;
+  height: 160px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  background-position: center;
+}
+
+.parent .card-title {
+  margin-top: 60px;
+}
+
 /*
  * Header
  */

@@ -27,12 +27,7 @@ class App extends React.Component {
             </nav>
           </div>
         </header>
-        <div className="view zoom">
-          <img src="images/mountains.jpg" className="img-fluid " alt=""></img>
-          <div className="mask flex-center">
-              <p className="white-text">Zoom effect</p>
-          </div>
-        </div>
+
 
         <main role="main" className="inner cover text-center">
           <h1 className="cover-heading">Please select from one of the following views: </h1>

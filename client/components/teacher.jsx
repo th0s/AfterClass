@@ -4,13 +4,15 @@ import axios from 'axios';
 export default class Teacher extends React.Component {
   
     handleClick(e) {
-      console.log('Click worked!')
+      console.log('Teacher')
     }
 
     render() {
         return (
             <div className="col-md-4 col-xs-6">
-                <img src="images/Teachers-Do-You-Have-Student-Loans.jpg" className="img-fluid rounded"></img>
+                <div className="teacher zoom-hover rounded" onClick={this.handleClick}>
+                    <div className="card-title">Teacher View</div>
+                </div>                
             </div>
         )
     }
