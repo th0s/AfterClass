@@ -1,7 +1,7 @@
 import React from 'react';
 import axios from 'axios';
 
-export default class Teacher extends React.Component {
+export default class Parent extends React.Component {
   
     handleClick(e) {
       console.log('Click worked!')
