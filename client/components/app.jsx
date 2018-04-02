@@ -5,6 +5,7 @@ import './../../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import Teacher from './teacher.jsx';
 import Student from './student.jsx';
 import Parent from './parent.jsx';
+import Contact from './contact.jsx';
 
 class App extends React.Component {
   constructor() {
@@ -22,8 +23,7 @@ class App extends React.Component {
             <h3 className="masthead-brand">AfterClass</h3>
             <nav className="nav nav-masthead justify-content-center">
               <a className="nav-link active" href="#">Home</a>
-              <a className="nav-link" href="#">Features</a>
-              <a className="nav-link" href="#">Contact</a>
+              <a className="nav-link" src={<Contact />}>Contact</a>
             </nav>
           </div>
         </header>

@@ -51,6 +51,7 @@ body {
 /* 
  * Component Hover and Images
  */
+ 
 .zoom-hover {
   transition: transform 0.3s ease-in-out;
 }
@@ -69,6 +70,7 @@ body {
 }
 .teacher .card-title {
   margin-top: 60px;
+  margin-bottom: 20px;
 }
 
 .student {
@@ -82,6 +84,7 @@ body {
 }
 .student .card-title {
   margin-top: 60px;
+  margin-bottom: 20px;
 }
 
 .parent {
@@ -96,6 +99,7 @@ body {
 
 .parent .card-title {
   margin-top: 60px;
+  margin-bottom: 20px;
 }
 
 /*

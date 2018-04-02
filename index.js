@@ -10,8 +10,8 @@ app.use(express.static(__dirname + '/client/dist'));
 app.use(bodyparser.json());
 
 // Routing
-app.get('/api/teachers', (req, res) => {
-  
+app.get('/contact', (req, res) => {
+  console.log('This is a test')
 })
 
 // Create and Listen on Port
