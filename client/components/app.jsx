@@ -40,7 +40,7 @@ class App extends React.Component {
 
         <footer className="mastfoot mt-auto">
           <div className="inner text-center">
-            <p>Cover template for <a href="https://getbootstrap.com/">Bootstrap</a>, by <a href="https://twitter.com/mdo">@mdo</a>.</p>
+            <p>Basic AfterClass Design</p>
           </div>
         </footer>
       </div>
