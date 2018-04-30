@@ -21,7 +21,6 @@ class App extends React.Component {
       <div className="cover-container d-flex h-100 p-3 mx-auto flex-column">
         <Nav />
 
-
         <main role="main" className="inner cover text-center">
           <h1 className="cover-heading">Please select from one of the following views: </h1>
           <div className="row">
