@@ -11,11 +11,11 @@ app.use(bodyparser.json());
 
 // Routing
 app.get('/contact', (req, res) => {
-  console.log('This is a test')
-})
+  console.log('This is a test');
+});
 
 // Create and Listen on Port
 app.listen(1337, (err) => {
-  if (err) {console.log('There was a connection issue: ', err);}
+  if (err) { console.log('There was a connection issue: ', err); }
   console.log('AfterClass listening on port 1337...');
 });

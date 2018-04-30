@@ -1,6 +1,6 @@
-import React from "react";
-import ReactDOM from "react-dom";
-import axios from "axios";
+import React from 'react';
+import ReactDOM from 'react-dom';
+import axios from 'axios';
 import './../../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import Teacher from './teacher.jsx';
 import Student from './student.jsx';
@@ -44,7 +44,7 @@ class App extends React.Component {
           </div>
         </footer>
       </div>
-    )
+    );
   }
 }
 

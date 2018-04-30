@@ -13,7 +13,9 @@
     "body-parser": "^1.18.2",
     "bootstrap": "^4.0.0",
     "css-loader": "^0.28.11",
+    "eslint": "^4.19.1",
     "express": "^4.16.3",
+    "extract-text-webpack-plugin": "^3.0.2",
     "file-loader": "^1.1.11",
     "mongodb": "^3.0.5",
     "mongoose": "^5.0.11",
@@ -29,14 +31,7 @@
     "webpack-cli": "^2.0.13",
     "webpack-dev-server": "^3.1.1"
   },
-  "devDependencies": {
-    "eslint": "^4.19.1",
-    "eslint-config-airbnb": "^16.1.0",
-    "eslint-config-google": "^0.9.1",
-    "eslint-plugin-import": "^2.9.0",
-    "eslint-plugin-jsx-a11y": "^6.0.3",
-    "eslint-plugin-react": "^7.7.0"
-  },
+  "devDependencies": {},
   "scripts": {
     "start": "echo hello",
     "build": "webpack -d --watch"
