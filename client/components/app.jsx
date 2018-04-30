@@ -6,6 +6,7 @@ import Teacher from './teacher.jsx';
 import Student from './student.jsx';
 import Parent from './parent.jsx';
 import Contact from './contact.jsx';
+import Nav from './nav.jsx';
 
 class App extends React.Component {
   constructor() {
@@ -18,15 +19,7 @@ class App extends React.Component {
   render () {
     return (
       <div className="cover-container d-flex h-100 p-3 mx-auto flex-column">
-        <header className="masthead mb-auto">
-          <div className="inner">
-            <h3 className="masthead-brand">AfterClass</h3>
-            <nav className="nav nav-masthead justify-content-center">
-              <a className="nav-link active" href="#">Home</a>
-              <a className="nav-link" src={<Contact />}>Contact</a>
-            </nav>
-          </div>
-        </header>
+        <Nav />
 
 
         <main role="main" className="inner cover text-center">
