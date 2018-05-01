@@ -1,14 +1,19 @@
+// Module Imports
 import React from 'react';
 import ReactDOM from 'react-dom';
+import { Route, Switch } from 'react-router-dom';
 import axios from 'axios';
 import './../../node_modules/bootstrap/dist/css/bootstrap.min.css';
+
+// Component Imports
 import Teacher from './teacher.jsx';
 import Student from './student.jsx';
 import Parent from './parent.jsx';
 import Contact from './contact.jsx';
 import Nav from './nav.jsx';
+import Routes from './routes.jsx';
 
-class App extends React.Component {
+export default class App extends React.Component {
   constructor() {
     super();
     this.state = {
@@ -16,7 +21,16 @@ class App extends React.Component {
     };
   }
 
+  componentDidCatch(error, info) {
+    this.setState({
+      hasError: true
+    });
+  }
+
   render () {
+    if (this.state.hasError) {
+      return <h1>Something went wrong</h1>;
+    }
     return (
       <div className="cover-container d-flex h-100 p-3 mx-auto flex-column">
         <Nav />
