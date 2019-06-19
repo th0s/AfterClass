@@ -14,7 +14,7 @@ export default class Nav extends React.Component {
           <h3 className="masthead-brand">AfterClass</h3>
           <nav className="nav nav-masthead justify-content-center">
             <a className="nav-link active" href="#">Home</a>
-            <a className="nav-link" src={<Contact />}>Contact</a>
+            <a className="nav-link"><Contact /></a>
           </nav>
         </div>
       </header>
